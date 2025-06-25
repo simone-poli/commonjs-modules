@@ -1,8 +1,12 @@
 function fullName (firstName,lastName){
-    return firstName + ' ' + lastName
+    const person = {
+        firstName : 'simone',
+        lastName : 'poli'
+    }
+    return person
 }
 
-console.log(fullName('simone','poli'))
+console.log(fullName())
 
 
 module.exports = fullName

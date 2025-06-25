@@ -4,7 +4,7 @@ const hobbies = require('./hobbies.js')
 
 function people(){
     const person = {
-        fullName : fullName('simone','poli'),
+        fullName :('simone' + ' ' + 'poli'),
         hobbies : hobbies ('bere','mangiare','dormire')
     }
     return person
