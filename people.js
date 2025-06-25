@@ -3,7 +3,11 @@ const hobbies = require('./hobbies.js')
 
 
 function people(){
-    return fullName + hobbies
+    const person = {
+        fullName : fullName('simone','poli'),
+        hobbies : hobbies ('bere','mangiare','dormire')
+    }
+    return person
 }
 
-console.log(people)
+console.log(people())
